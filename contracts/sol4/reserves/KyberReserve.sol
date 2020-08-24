@@ -2,8 +2,8 @@ pragma solidity 0.4.18;
 
 
 import "../ERC20Interface.sol";
-import "../utils/Utils.sol";
-import "../utils/Withdrawable.sol";
+import "../Utils.sol";
+import "../Withdrawable.sol";
 import "../ConversionRatesInterface.sol";
 import "../SanityRatesInterface.sol";
 import "../KyberReserveInterface.sol";

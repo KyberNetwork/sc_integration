@@ -2,8 +2,8 @@ pragma solidity 0.4.18;
 
 
 import "../../ConversionRatesInterface.sol";
-import "../../utils/Withdrawable.sol";
-import "../../utils/Utils.sol";
+import "../../Withdrawable.sol";
+import "../../Utils.sol";
 import "./LiquidityFormula.sol";
 
 

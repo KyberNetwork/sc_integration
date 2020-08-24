@@ -2,8 +2,8 @@ pragma solidity 0.4.18;
 
 
 import "./ERC20Interface.sol";
-import "./utils/Withdrawable.sol";
-import "./utils/Utils2.sol";
+import "./Withdrawable.sol";
+import "./Utils2.sol";
 import "./KyberNetworkInterface.sol";
 import "./KyberNetworkProxyInterface.sol";
 import "./SimpleNetworkInterface.sol";
