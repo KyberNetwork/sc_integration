@@ -11,5 +11,5 @@ install:
   - yarn install
 
 script:
-  - yarn run cmp
-  - yarn run test
+  - yarn cmp
+  - yarn test

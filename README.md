@@ -7,11 +7,11 @@
 ## Compilation with Buidler
 
 ```sh
-yarn run cmp
+yarn cmp
 ```
 
 ## Testing with Buidler
 
 ```sh
-yarn run test
+yarn test
 ```

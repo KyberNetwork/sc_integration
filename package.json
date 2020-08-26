@@ -1,6 +1,6 @@
 {
   "name": "sc_integration",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "kyber smart-contract integration repo",
   "main": "index.js",
   "repository": "https://github.com/KyberNetwork/sc_integration.git",
@@ -18,7 +18,8 @@
     "prettier-plugin-solidity": "^1.0.0-alpha.56"
   },
   "scripts": {
-    "cmp": "NODE_OPTIONS=--max-old-space-size=4096 yarn run buidler compile && yarn run buidler compile --config buidlerConfigSol4.js",
-    "test": "yarn run buidler test --no-compile"
+    "cmp": "NODE_OPTIONS=--max-old-space-size=4096 yarn buidler compile && yarn buidler compile --config buidlerConfigSol4.js",
+    "test": "yarn buidler test --no-compile",
+    "cmpSol6": "yarn buidler compile"
   }
 }
