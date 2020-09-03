@@ -1,0 +1,25 @@
+{
+  "name": "sc_integration",
+  "version": "2.0.0",
+  "description": "kyber smart-contract integration repo",
+  "main": "index.js",
+  "repository": "https://github.com/KyberNetwork/sc_integration.git",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/buidler": "1.3.0",
+    "@nomiclabs/buidler-truffle5": "1.3.0",
+    "@nomiclabs/buidler-web3": "1.3.0",
+    "@openzeppelin/test-helpers": "0.5.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mathjs": "^7.1.0",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.56"
+  },
+  "scripts": {
+    "compile": "NODE_OPTIONS=--max-old-space-size=4096 yarn buidler compile && yarn buidler compile --config buidlerConfigSol4.js",
+    "test": "yarn buidler test --no-compile",
+    "cmpSol6": "yarn buidler compile"
+  }
+}
